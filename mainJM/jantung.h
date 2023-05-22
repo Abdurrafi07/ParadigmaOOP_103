@@ -1,5 +1,5 @@
 #ifndef JANTUNG_H
-#define JanTUNG_H
+#define JANTUNG_H
 
 using namespace std;
 
