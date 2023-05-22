@@ -28,5 +28,10 @@ class pelajar : public orang {
 	sekolah(pSekolah) {
 		cout << "Pelajar dibuat\n" << endl;
 		}
-
+	~pelajar() {
+		cout << "Pelajar dibuat\n" << endl;
+	}
+	string perkenalan() {
+		return "Halo nama saya " + nama + "dari sekolah" + sekolah + "\n\n";
+	}
 };
