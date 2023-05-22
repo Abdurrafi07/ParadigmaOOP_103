@@ -23,5 +23,8 @@
     <ClInclude Include="jantung.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="manusiar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

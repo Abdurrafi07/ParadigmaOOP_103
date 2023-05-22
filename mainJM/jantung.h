@@ -1,4 +1,4 @@
-#ifndif JANTUNG_H
+#ifndef JANTUNG_H
 #define JanTUNG_H
 
 using namespace std;
