@@ -65,4 +65,15 @@ int main() {
 	varDokter2->tambahPasien(varPasien2);
 	varDokter1->tambahPasien(varPasien1);
 
+	varDokter1->cetakPasien();
+	varDokter2->cetakPasien();
+	varPasien1->cetakDokter();
+	varPasien2->cetakDokter();
+
+	delete varPasien1;
+	delete varPasien2;
+	delete varDokter1;
+	delete varDokter2;
+
+	return 0;
 }
